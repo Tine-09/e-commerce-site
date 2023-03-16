@@ -10,9 +10,10 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Old+Standard+TT:wght@400;700&family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         
-        <!-- UIkit CSS -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.6/dist/css/uikit.min.css" />
-        
+        <!--ICONS-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+        <script src="https://kit.fontawesome.com/adf2fd8945.js" crossorigin="anonymous"></script>
+
         <!--CSS-->
         <link rel="stylesheet" href="css/style.css"/>
     </head>
@@ -20,26 +21,28 @@
         <!--NAVBAR-->
         <section id="header">
             <a href="index.html"><img src="Images/logo.png"></a>
-
             <nav>
                 <ul id="navbar">
                     <li><a class="active" href="index.html">Home</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="#about">About</a></li>
                     <li><a href="products.html">Products</a></li>
                     <li><a href="services.html">Services</a></li>
-                    <li><a href="cart.html">Cart </a><img class="cart-icon" src="Icons/cart.png"></li>
+                    <li><a href="cart.html">Cart <i class="fa-solid fa-cart-shopping"></i></a></i></li>
                 </ul>
-
             </nav>
         </section>
 
-        <section id="tag">
-            <h4>Experience the Magic of</h4>
-            <h2>BEAUTY</h2>
-            <p> Be the version of YOU that you will never regret. <br>
-                Enjoy the art of satisfaction where it inspires confidence. </p>
+        <!--HERO-->
+        <section id="hero">
+            <div>
+                <h4>Experience the Magic of</h4>
+                <h2>BEAUTY</h2>
+                <p> Be the new version of <span><b>YOU</b></span> that you will never regret. <br>
+                    Enjoy the art of satisfaction where it inspires confidence. </p>
+            </div>
         </section>
        
+        <!--ABOUT-->
         <section id="about">
             <div class="row">
                 <div class="column">
@@ -47,7 +50,7 @@
                 </div>
                 <div class="card">
                     <div class="card-container">
-                      <h3>AT OUR COMPANY,</h3> 
+                      <h3><a name="about"></a>AT OUR COMPANY,</h3> 
                       <h2>We are dedicated to helping our clients look and feel their best. </h2> 
                       <p>We believe that beauty comes from within, and that taking care of <br> yourself should be a top priority. That's why we offer a range of <br> services and products designed to help you feel confident and <br> radiant, from skincare treatments to makeup application.</p>
                     </div>
@@ -60,6 +63,7 @@
                   </div>
         </section>
 
+        <!--BEST PRODUCTS-->
         <section id="product1" class="section-p1">
             <h2>Our Best Products</h2>
             <div class="pro-container">
@@ -68,15 +72,14 @@
                     <div class="des">
                         <h5>Ultra Waterproof Liquid Foundation</h5>
                     <div class="star">
-                        <span uk-icon="icon: star"></span>
-                        <span uk-icon="icon: star"></span>
-                        <span uk-icon="icon: star"></span>
-                        <span uk-icon="icon: star"></span>
-                        <span uk-icon="icon: star"></span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
                     </div>
                     <h4>P230</h4>
                     </div>
-                    <a href="#"><span class="cart-button" uk-icon="icon: cart"></span></a>
+                    <a href="#"><span class="cart-button"><i class="fa-solid fa-cart-shopping"></i></span></a>
                 </div>
 
                 <div class="pro">
@@ -84,15 +87,14 @@
                     <div class="des">
                         <h5>Men’s Perfume </h5>
                     <div class="star">
-                        <span uk-icon="icon: star"></span>
-                        <span uk-icon="icon: star"></span>
-                        <span uk-icon="icon: star"></span>
-                        <span uk-icon="icon: star"></span>
-                        <span uk-icon="icon: star"></span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
                     </div>
                     <h4>P490</h4>
                     </div>
-                    <a href="#"><span class="cart-button" uk-icon="icon: cart"></span></a>
+                    <a href="#"><span class="cart-button"><i class="fa-solid fa-cart-shopping"></i></span></a>
                 </div>
 
                 <div class="pro">
@@ -100,15 +102,15 @@
                     <div class="des">
                         <h5>Anti - Aging Essential Oil</h5>
                     <div class="star">
-                        <span uk-icon="icon: star"></span>
-                        <span uk-icon="icon: star"></span>
-                        <span uk-icon="icon: star"></span>
-                        <span uk-icon="icon: star"></span>
-                        <span uk-icon="icon: star"></span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
                     </div>
                     <h4>P328</h4>
                     </div>
-                    <a href="#"><span class="cart-button" uk-icon="icon: cart"></span></a>
+                    <a href="#"><span class="cart-button"><i class="fa-solid fa-cart-shopping"></i></span></a>
                 </div>
 
                 
@@ -117,20 +119,21 @@
                     <div class="des">
                         <h5>Anti - Aging Essential Oil</h5>
                     <div class="star">
-                        <span uk-icon="icon: star"></span>
-                        <span uk-icon="icon: star"></span>
-                        <span uk-icon="icon: star"></span>
-                        <span uk-icon="icon: star"></span>
-                        <span uk-icon="icon: star"></span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
                     </div>
                     <h4>P328</h4>
                     </div>
-                    <a href="#"><span class="cart-button" uk-icon="icon: cart"></span></a>
+                    <a href="#"><span class="cart-button"><i class="fa-solid fa-cart-shopping"></i></span></a>
                 </div>
             </div>
-            <button class="button button1">VIEW ALL</button>
+            <button class="button4" href="products.html">Shop Now</button>
         </section>
 
+        <!--SERVICES-->
         <section id="services" class="section-p1">
             <h2>Our Services</h2>
             <div>
@@ -164,9 +167,10 @@
                     </a>
                 </div>
             </div>
-            <button class="button button1">VIEW ALL</button>
+            <button class="button4" href="products.html">Book Now</button>
         </section>
 
+        <!--REVIEW FROM CLIENTS-->
         <section id="reviews">
             <div class="rev-container">
                 <h2>Honest reviews from previous clients</h2>
@@ -178,11 +182,11 @@
                         <img src="Images/R1.png" alt="">
                         <div class="name">John Doe</div>
                         <div class="stars">
-                            <span uk-icon="icon: star"></span>
-                            <span uk-icon="icon: star"></span>
-                            <span uk-icon="icon: star"></span>
-                            <span uk-icon="icon: star"></span>
-                            <span uk-icon="icon: star"></span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
                         </div>
                         <p>
                             "I absolutely loved my experience at this beauty service! The staff was friendly and welcoming, and they really took the time to listen to what I wanted. The end result was even better than I had hoped for."
@@ -192,58 +196,82 @@
 
                 <div class="col">
                     <div class="testimonial">
-                    <img src="Images/R2.png" alt="">
-                    <div class="name">Chris Sanchez</div>
-                    <div class="stars">
-                        <span uk-icon="icon: star"></span>
-                        <span uk-icon="icon: star"></span>
-                        <span uk-icon="icon: star"></span>
-                        <span uk-icon="icon: star"></span>
-                        <span uk-icon="icon: star"></span>    
-                  </div>
+                        <img src="Images/R2.png" alt="">
+                        <div class="name">Chris Sanchez</div>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>   
+                        </div>
 
-                <p>
-                    "I absolutely loved my experience at this beauty service! The staff was friendly and welcoming, and they really took the time to listen to what I wanted. The end result was even better than I had hoped for."
-                </p>
+                        <p>
+                            "I absolutely loved my experience at this beauty service! The staff was friendly and welcoming, and they really took the time to listen to what I wanted. The end result was even better than I had hoped for."
+                        </p>
+                    </div>
                 </div>
-            </div>
+            
 
-            <div class="col">
-                <div class="testimonial">
-                <img src="Images/R1.png" alt="">
-                <div class="name">Edward Jackson</div>
-                <div class="stars">
-                    <span uk-icon="icon: star"></span>
-                        <span uk-icon="icon: star"></span>
-                        <span uk-icon="icon: star"></span>
-                        <span uk-icon="icon: star"></span>
-                        <span uk-icon="icon: star"></span>   
+                <div class="col">
+                    <div class="testimonial">
+                        <img src="Images/R1.png" alt="">
+                        <div class="name">Edward Jackson</div>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                        <p>
+                            "I absolutely loved my experience at this beauty service! The staff was friendly and welcoming, and they really took the time to listen to what I wanted. The end result was even better than I had hoped for."
+                        </p>
+                    </div>
                 </div>
 
-                <p>
-                    "I absolutely loved my experience at this beauty service! The staff was friendly and welcoming, and they really took the time to listen to what I wanted. The end result was even better than I had hoped for."
-                </div>
-            </div>
+                <div class="col">
+                    <div class="testimonial">
+                        <img src="Images/R2.png" alt="">
+                        <div class="name">Chris Sanchez</div>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i> 
+                        </div>
+
+                        <p>
+                            "I absolutely loved my experience at this beauty service! The staff was friendly and welcoming, and they really took the time to listen to what I wanted. The end result was even better than I had hoped for."
+                        </p>
+                    </div>
+                </div>       
             </div>
         </section>
 
-        <section>
-            <div>
-                <div class="footer">
-                    <p>Footer</p>
-                  </div>
+        <!--FOOTER -->
+        <section id="footer">
+            <div class="footer-container">
+                <div>
+                    <p>Connect with us</p>
+                    <div class="socials">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <p class="address">1234 Sampaguita Street Barangay <br> 
+                        Poblacion Makati City, <br>
+                        Metro Manila Philippines 1234</p>
+                </div>
+                
             </div>
         </section>
-
-
+    
       
 
         <!--JS-->
-        <script src="script.js"></script>
-
-        <!-- UIkit JS -->
-        <script src="uikit/dist/js/uikit-icons.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.6/dist/js/uikit.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.6/dist/js/uikit-icons.min.js"></script>
+        <script src="js/script.js"></script>
     </body>
 </html>

@@ -10,27 +10,113 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Old+Standard+TT:wght@400;700&family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         
-        <!-- UIkit CSS -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.6/dist/css/uikit.min.css" />
-        
-        <!--CSS-->
-        <link rel="stylesheet" href="css/style.css"/>
+        <!--ICONS-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+        <script src="https://kit.fontawesome.com/adf2fd8945.js" crossorigin="anonymous"></script>
+       
+       <!--CSS-->
+       <link rel="stylesheet" href="css/style.css"/>
     </head>
     <body>
         <!--NAVBAR-->
         <section id="header">
-            <a href="index.html"><img src="Images/logo.png"></a>
-
-            <nav>
-                <ul id="navbar">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="products.html">Products</a></li>
-                    <li><a class="active" href="services.html">Services</a></li>
-                    <li><a href="cart.html">Cart </a><img class="cart-icon" src="Icons/cart.png"></li>
-                </ul>
-
+           <a href="index.html"><img src="Images/logo.png"></a>
+           <nav>
+               <ul id="navbar">
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="#about">About</a></li>
+                   <li><a href="products.html">Products</a></li>
+                   <li><a class="active" href="services.html">Services</a></li>
+                   <li><a href="cart.html">Cart<i class="fa-solid fa-cart-shopping"></i></a></li>
+               </ul>
             </nav>
         </section>
+
+        <!--SIDEBAR MENU-->
+        <section id="categories">
+            <div class="sidebar">
+                <button type="button" class="collapsible">CATEGORIES</button>
+                    <div class="content">
+                        <li><label class="container"><input type="checkbox" checked="checked"> Women
+                            <span class="checkmark"></span>
+                        </label></li>
+                        <li><label class="container"><input type="checkbox" checked="checked"> Men
+                            <span class="checkmark"></span>
+                        </label></li>
+                    </div>
+                    <hr>
+                <button type="button" class="collapsible">SERVICES</button>
+                    <div class="content">
+                        <li><label class="container"><input type="checkbox" checked="checked"> Hair
+                            <span class="checkmark"></span>
+                        </label></li>
+                        <li><label class="container"><input type="checkbox" checked="checked"> Nail
+                            <span class="checkmark"></span>
+                        </label></li>
+                        <li><label class="container"><input type="checkbox" checked="checked"> Skincare
+                            <span class="checkmark"></span>
+                        </label></li>
+                        <li><label class="container"><input type="checkbox" checked="checked"> Spa
+                            <span class="checkmark"></span>
+                        </label></li>
+                    </div>
+                    <hr>    
+            </div>
+
+            <!--SERVICES LISTS-->
+            <div class="product-list">
+            <h2>HAIR SERVICES</h2>
+            <div class="products">
+                <div class="pro">
+                    <a href="service-list.html"><img src="Images/services/women/hair/w-haircut.jpg" alt=""></a>
+                    <div class="des">
+                        <h5>Haircut</h5>
+                    </div>
+                </div>
+
+                <div class="pro">
+                    <a href="service-list.html"><img src="Images/services/women/hair/w-haircolor.jpg" alt=""></a>
+                        <div class="des">
+                            <h5>Hair Coloring</h5>
+                        </div>
+                </div>
+
+                <div class="pro">
+                    <a href="service-list.html"><img src="Images/services/women/hair/w-highlights.jpg" alt=""></a>
+                        <div class="des">
+                            <h5>Highlights / Lowlights</h5>
+                        </div>
+                </div>
+
+                <div class="pro">
+                    <a href="service-list.html"><img src="Images/services/women/hair/w-extension.jpg" alt=""></a>
+                        <div class="des">
+                            <h5>Hair Extentions</h5>
+                        </div>
+                </div>
+            </div>          
+                    
+                    
+        </section>
+
+        <!--FOOTER -->
+        <section id="footer">
+            <div class="footer-container">
+                <div>
+                    <p>Connect with us</p>
+                        <div class="socials">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                            <p class="address">1234 Sampaguita Street Barangay <br> 
+                                Poblacion Makati City, <br>
+                                Metro Manila Philippines 1234</p>
+                </div>
+                        
+            </div>
+        </section>
+        <!--JS-->
+        <script src="js/script.js"></script>
     </body>
 </html>
